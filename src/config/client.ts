@@ -79,8 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Tom Fowler", rating: 5, text: "BlueFish transformered our garden into a beautiful space we're able to share with friends and family! …  ", date: "8 years ago" },
-    { name: "avery bale", rating: 5, text: "James is a first class landscaper.  Our garden is proof of that!  From initial design, project management, excellent communication to the beautifully completed garden - we are very pleased.  James’s knowledge of gardening is superb. The …  ", date: "11 years ago" },
+    { name: "Emma Walton", rating: 5, text: "I can fully recommend James and his team from BlueFish.  We had a large landscaping project that included a complex terrace wall and steps.  James was the one contractor who was confident in taking on our plans.  Their communication and quality of workmanship was exemplary - we were keeping it to an Arts & Crafts style that included some more intricate styles and materials. The team were polite and kept a very clean and tidy site. We now have the most beautiful terrace and landscaping that draws many positive comments.  We were delighted with the finished result.", date: "a year ago" },
+    { name: "stephanie Edwards", rating: 5, text: "We cant recommend James and the Bluefish team highly enough. From our first meeting with James he explained what he would be doing and when and he delivered on EVERY part of our huge project professionally, precisely and on time! James and the team are a joy to have around the garden - they work hard, efficiently and provided useful and practical guidance for ongoing maintenance . We immediately booked them back in for another project which they delivered as professionally as the first. They have certainly raised the bar  - What a find!", date: "a year ago" },
+    { name: "Kimberly Craner", rating: 5, text: "Bluefish did an amazing job! Highly recommend! They were reliable, personable, and meticulous. We won't go any where else!", date: "a year ago" },
+    { name: "Paul Gunner", rating: 5, text: "We have used Bluefish for both landscaping and regular maintenance of our garden.  They are a fantastic, hard-working, personable team and I thoroughly recommend them!", date: "a year ago" },
+    { name: "Adrian Lajtha", rating: 5, text: "Excellent team.  Completely reliable, knowledgeable and very hard-working - and a pleasure to have around.  Strongly recommend them.", date: "a year ago" },
+    { name: "Luke Howard Taylor", rating: 5, text: "BlueFish are exemplary providers of garden maintenance, landscape and building services. I have no hesitation in recommending them to all.", date: "a year ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
