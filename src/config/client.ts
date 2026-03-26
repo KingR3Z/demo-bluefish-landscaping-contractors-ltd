@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "2",
 
   // Services
   services: [
@@ -79,9 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Tom Fowler", rating: 5, text: "BlueFish transformered our garden into a beautiful space we're able to share with friends and family! …  ", date: "8 years ago" },
+    { name: "avery bale", rating: 5, text: "James is a first class landscaper.  Our garden is proof of that!  From initial design, project management, excellent communication to the beautifully completed garden - we are very pleased.  James’s knowledge of gardening is superb. The …  ", date: "11 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
